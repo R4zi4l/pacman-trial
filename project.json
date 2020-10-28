@@ -1,0 +1,56 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/defines.js",
+        "src/app.js",
+        "src/SoundManager.js",
+
+        "src/scenes/GameScene.js",
+        "src/scenes/MainMenuScene.js",
+        "src/scenes/StatisticsScene.js",
+
+        "src/ui/Menu.js",
+        "src/ui/GameMenuLayer.js",
+        "src/ui/HeadsUpLayer.js",
+        "src/ui/GameLayer.js",
+
+        "src/world/Directions.js",
+        "src/world/PointsSet.js",
+        "src/world/grid/Cell.js",
+        "src/world/grid/Grid.js",
+        "src/world/states/State.js",
+        "src/world/states/enemy/EnemyState.js",
+        "src/world/states/enemy/ChaseState.js",
+        "src/world/states/enemy/DeadState.js",
+        "src/world/states/enemy/FrightState.js",
+        "src/world/states/enemy/PrisonState.js",
+        "src/world/states/enemy/ScatterState.js",
+        "src/world/states/player/PlayerState.js",
+        "src/world/states/player/EnergizedState.js",
+        "src/world/states/player/NormalState.js",
+        "src/world/actors/Actor.js",
+        "src/world/actors/Player.js",
+        "src/world/actors/Enemy.js",
+        "src/world/actors/Shadow.js",
+        "src/world/actors/Speedy.js",
+        "src/world/actors/Bashful.js",
+        "src/world/actors/Pockey.js",
+        "src/world/targets/Target.js",
+        "src/world/targets/Bonus.js",
+        "src/world/targets/Dot.js",
+        "src/world/targets/Energizer.js",
+        "src/world/targets/Slowdown.js"
+    ]
+}
