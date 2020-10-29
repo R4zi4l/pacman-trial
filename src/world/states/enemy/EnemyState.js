@@ -9,7 +9,7 @@ class EnemyState extends State {
     if (directions.length) {
       return this.selectDirection(directions, cell);
     }
-    return direction;
+    return direction.opposite();
   }
 
   // invariant !!! must return valid Direction
