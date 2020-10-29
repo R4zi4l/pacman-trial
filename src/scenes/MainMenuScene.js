@@ -10,7 +10,12 @@ var MainMenuScene = cc.Scene.extend({
   },
 
   createMeinMenu(manager) {
+    let title = new cc.MenuItemFont("Trial Pacman");
+    title.setFontSize(48);
+
     let menu = new Menu([
+      title,
+      new cc.MenuItemFont(" "),
       new cc.MenuItemFont("New Game", () => manager.startGame()),
       new cc.MenuItemFont("Select Map", () => this.showMenu(this.mapMenu))
     ]);
@@ -18,12 +23,17 @@ var MainMenuScene = cc.Scene.extend({
   },
 
   createMapMenu(manager) {
+    let title = new cc.MenuItemFont("Trial Pacman");
+    title.setFontSize(48);
+
     let items = MAPS.map((map) => new cc.MenuItemFont(map.name, () => {
       manager.settings.map = map;
       this.showMenu(this.mainMenu);
     }));
 
     let menu = new Menu([
+      title,
+      new cc.MenuItemFont(" "),
       new cc.MenuItemFont("Select map:"),
       ...items,
       new cc.MenuItemFont(" "),
