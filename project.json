@@ -25,6 +25,7 @@
         "src/ui/GameMenuLayer.js",
         "src/ui/HeadsUpLayer.js",
         "src/ui/GameLayer.js",
+        "src/ui/HelpLabel.js",
 
         "src/world/Directions.js",
         "src/world/PointsSet.js",

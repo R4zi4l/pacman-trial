@@ -9,7 +9,10 @@ var GameMenuLayer = cc.Layer.extend({
 
     let menu = new Menu(items);
 
+    help = new HelpLabel(this.getContentSize());
+
     this.addChild(background);
+    this.addChild(help);
     this.addChild(menu);
   }
 });
