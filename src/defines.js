@@ -62,6 +62,10 @@ const MAPS = [
     name: "Default",
     tiledmap: res.default_level_tilemap_tmx,
     background: res.default_level_background_png
+  }, {
+    name: "Road to Rome",
+    tiledmap: res.road_to_rome_tilemap_tmx,
+    background: res.road_to_rome_background_png
   }
 ];
 

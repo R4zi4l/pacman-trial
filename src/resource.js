@@ -23,9 +23,13 @@
  ****************************************************************************/
 
 var res = {
-    default_level_tilemap_tmx: "res/default_level_tilemap.tmx",
     default_level_tileset_png: "res/default_level_tileset.png",
+
+    default_level_tilemap_tmx: "res/default_level_tilemap.tmx",
     default_level_background_png: "res/default_level_background.png",
+
+    road_to_rome_tilemap_tmx: "res/road_to_rome_tilemap.tmx",
+    road_to_rome_background_png: "res/road_to_rome_background.png",
 
     actors_plist: "res/actors.plist",
     actors_png: "res/actors.png",
